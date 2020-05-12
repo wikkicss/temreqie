@@ -76,7 +76,7 @@ timer = $('#timer');
 
 if ($.urlParam('o') != null){
 timer.pietimer({
-timerSeconds: 15,
+timerSeconds: 4,
 color: '#1e8fe6',
 fill: !1,
 showPercentage: !0,
@@ -89,7 +89,7 @@ timer.addClass('hidden');
 }
 
 function gotolinkcountdown(){
-var countDown = 10;
+var countDown = 5;
 gotolink.removeClass('hidden');
 var x = setInterval(function() {
 
